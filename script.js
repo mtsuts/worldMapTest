@@ -1,4 +1,4 @@
-d3.json('data.json').then((data) => {
+Promise.all([d3.json('geo.json'), d3.json('GDP.json')]).then((data) => {
   const mapContainer = '.map-container'
-  map(mapContainer, data)
+  map(mapContainer, data[0])
 })
