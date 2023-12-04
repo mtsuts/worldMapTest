@@ -17,16 +17,22 @@ function map(mapContainer, data) {
     .attr('width', params.width)
     .on("click", reset);
 
-
   // create projection
   const projection = d3.geoMercator()
     .fitSize([params.width, params.height], data)
 
-
   // create path
   const path = d3.geoPath().projection(projection);
   // Create a group for the map features
-  const features = svg.append("g");
+  const features = svg.append("g")
+
+  // color scale for heatmap 
+
+
+  const colorScale = d3.scalePow()
+    .domain([d3.min(data.features.map(d => d.gdp.unGDP)), d3.max(data.features.map(d => d.gdp.unGDP))])
+    .range(["#ffa200", "#ff3300"]).exponent(0.3)
+
 
   // Bind the GeoJSON data to path elements and draw them
   features.selectAll("path")
@@ -34,49 +40,61 @@ function map(mapContainer, data) {
     .enter()
     .append("path")
     .attr("d", path)
-    .style('fill', "#6495e3")
-    .style('opacity', 0.5)
+    .style('fill', "#ffa200")
+    .style('opacity', 0.7)
     .attr('cursor', 'pointer')
     .attr('stroke', '#fafafa')
     .attr('stroke-width', 0.7)
     .on('click', clicked)
 
-
   const zoom = d3.zoom()
     .scaleExtent([1, 8])
     .on("zoom", zoomed);
 
-
   svg.call(zoom)
+
+  // reset button click
+  const resetBtn = d3.select('.reset-button').on('click', function () {
+    reset()
+
+  })
 
   function zoomed(event) {
     const { transform } = event;
     features.attr("transform", transform);
+
   }
 
-
   function reset() {
-    d3.selectAll('path').transition().style('fill', '#6495e3')
+    d3.selectAll('path').transition().style('opacity', 0.7)
+    console.log(d3.zoomTransform(svg.node()));
     svg.transition().duration(750).call(
       zoom.transform,
       d3.zoomIdentity,
-      d3.zoomTransform(svg.node()).invert([params.width / 2, params.height / 2])
     );
   }
 
   function clicked(event, d) {
+    resetBtn.classed('hidden', false)
     const [[x0, y0], [x1, y1]] = path.bounds(d);
     event.stopPropagation();
-    d3.selectAll('path').transition().style('fill', "#6495e3")
-    d3.select(this).transition().style('fill', 'red')
+    d3.selectAll('path').transition().style('opacity', 0.7)
+    d3.select(this).transition().style('opacity', 1)
     svg.transition().duration(750).call(
       zoom.transform,
       d3.zoomIdentity
         .translate(params.width / 2, params.height / 2)
-        .scale(Math.min(2, 0.9 / Math.max((x1 - x0) / params.width, (y1 - y0) / params.height)))
+        .scale(Math.min(
+          2,
+          1 * Math.min(
+            params.width / (x1 - x0),
+            params.height / (y1 - y0)
+          )))
         .translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
       d3.pointer(event, svg.node())
     );
   }
+
+
 
 }

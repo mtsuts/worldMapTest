@@ -4,18 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2/dist/tailwind.min.css" rel="stylesheet">
+
   <title>World map</title>
 </head>
 
 <body>
-  <div class="map-container ">
+  <div class="map-container  absolute top-0 left-0 w-full h-full">
   </div>
-  
+ <button class="reset-button relative top-10 p-2 border border-black bg-white text-black rounded-lg mt-2 ml-4 mb-2 hidden"> Reset </button>
+
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
   <script src="./map.js"></script>
   <script src="./script.js"></script>
-  
+
 </body>
 
 </html>

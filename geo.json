@@ -618,7 +618,7 @@
           ]
         ]
       },
-      "properties": { "name": "Bahamas, The" },
+      "properties": { "name": "Bahamas" },
       "id": "BS"
     },
     {
@@ -910,24 +910,7 @@
       "properties": { "name": "Botswana" },
       "id": "BW"
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [3.36, -54.46],
-              [3.37, -54.4],
-              [3.48, -54.4],
-              [3.36, -54.46]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "Bouvet Island" },
-      "id": "BV"
-    },
+
     {
       "type": "Feature",
       "geometry": {
@@ -1093,6 +1076,7 @@
       "properties": { "name": "Brazil" },
       "id": "BR"
     },
+
     {
       "type": "Feature",
       "geometry": {
@@ -1113,24 +1097,6 @@
       },
       "properties": { "name": "Belize" },
       "id": "BZ"
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [72.49, -7.38],
-              [72.36, -7.27],
-              [72.45, -7.23],
-              [72.49, -7.38]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "British Indian Ocean Territory" },
-      "id": "IO"
     },
     {
       "type": "Feature",
@@ -1267,75 +1233,7 @@
       "properties": { "name": "Bulgaria" },
       "id": "BG"
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [97.81, 28.34],
-              [98.7, 27.54],
-              [98.78, 26.64],
-              [98.71, 25.86],
-              [97.55, 24.74],
-              [97.54, 23.94],
-              [98.89, 24.16],
-              [98.93, 23.19],
-              [99.57, 22.94],
-              [99.16, 22.16],
-              [99.96, 22.05],
-              [100.21, 21.43],
-              [101.15, 21.57],
-              [100.09, 20.35],
-              [100.08, 20.35],
-              [98.05, 19.81],
-              [97.77, 18.57],
-              [97.35, 18.56],
-              [98.93, 16.39],
-              [98.2, 15.07],
-              [99.17, 13.73],
-              [99.66, 11.83],
-              [98.74, 10.35],
-              [98.55, 9.98],
-              [98.89, 11.7],
-              [97.8, 14.88],
-              [97.74, 16.56],
-              [97.38, 16.49],
-              [96.88, 17.45],
-              [96.78, 16.7],
-              [96.24, 16.8],
-              [95.43, 15.73],
-              [95.36, 16.14],
-              [94.85, 15.78],
-              [94.99, 16.25],
-              [94.65, 15.85],
-              [94.63, 16.34],
-              [94.25, 15.96],
-              [94.61, 17.55],
-              [93.99, 19.46],
-              [93.73, 19.93],
-              [93.13, 19.84],
-              [93.08, 20.55],
-              [92.86, 20.12],
-              [92.26, 21.05],
-              [92.6, 21.98],
-              [93.2, 22.26],
-              [93.34, 24.08],
-              [94.15, 23.86],
-              [95.14, 26.61],
-              [96.19, 27.27],
-              [97.14, 27.09],
-              [96.89, 27.61],
-              [97.35, 28.22],
-              [97.81, 28.34]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "Burma" },
-      "id": "MM"
-    },
+
     {
       "type": "Feature",
       "geometry": {
@@ -3307,42 +3205,7 @@
       "properties": { "name": "Taiwan" },
       "id": "TW"
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [105.7, -10.51],
-              [105.63, -10.44],
-              [105.74, -10.38],
-              [105.7, -10.51]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "Christmas Island" },
-      "id": "CX"
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [96.86, -12.2],
-              [96.82, -12.18],
-              [96.83, -12.13],
-              [96.86, -12.2]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "Cocos (Keeling) Islands" },
-      "id": "CC"
-    },
+
     {
       "type": "Feature",
       "geometry": {
@@ -3432,24 +3295,7 @@
       "properties": { "name": "Comoros" },
       "id": "KM"
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [45.2, -12.85],
-              [45.1, -12.99],
-              [45.08, -12.66],
-              [45.2, -12.85]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "Mayotte" },
-      "id": "YT"
-    },
+
     {
       "type": "Feature",
       "geometry": {
@@ -3490,75 +3336,10 @@
           ]
         ]
       },
-      "properties": { "name": "Congo, Republic of the" },
+      "properties": { "name": "Congo" },
       "id": "CG"
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [25.89, 5.19],
-              [27.46, 5.02],
-              [28.36, 4.29],
-              [29.64, 4.64],
-              [30.86, 3.49],
-              [30.73, 2.45],
-              [31.3, 2.12],
-              [29.96, 0.83],
-              [29.6, -1.39],
-              [29.02, -2.74],
-              [29.23, -3.75],
-              [29.42, -4.45],
-              [29.55, -6.3],
-              [30.77, -8.19],
-              [28.9, -8.48],
-              [28.37, -9.26],
-              [28.7, -10.65],
-              [28.36, -11.55],
-              [29.03, -12.38],
-              [29.81, -12.16],
-              [29.8, -13.45],
-              [29.02, -13.4],
-              [27.2, -11.57],
-              [26.87, -11.97],
-              [26, -11.9],
-              [25.33, -11.19],
-              [24.45, -11.46],
-              [23.99, -10.87],
-              [22.25, -11.21],
-              [21.78, -7.28],
-              [19.54, -7],
-              [19.37, -8],
-              [17.62, -8.1],
-              [16.58, -5.9],
-              [14, -5.85],
-              [13.18, -5.86],
-              [12.21, -5.77],
-              [13.09, -4.66],
-              [13.09, -4.63],
-              [13.41, -4.88],
-              [14.4, -4.28],
-              [14.66, -4.91],
-              [15.89, -3.94],
-              [16.2, -2.18],
-              [17.71, -0.54],
-              [18.62, 3.48],
-              [18.54, 4.34],
-              [19.42, 5.13],
-              [20.59, 4.41],
-              [22.38, 4.13],
-              [22.9, 4.82],
-              [25.89, 5.19]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "Congo, Democratic Republic of the" },
-      "id": "CD"
-    },
+
     {
       "type": "Feature",
       "geometry": {
@@ -4115,86 +3896,7 @@
       "properties": { "name": "Estonia" },
       "id": "EE"
     },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [-7.05, 62.07],
-              [-7.2, 62.02],
-              [-7.44, 62.14],
-              [-7.05, 62.07]
-            ]
-          ],
-          [
-            [
-              [-6.71, 61.94],
-              [-7.23, 62.17],
-              [-7.21, 62.28],
-              [-6.71, 61.94]
-            ]
-          ],
-          [
-            [
-              [-6.66, 62.09],
-              [-7.06, 62.31],
-              [-6.6, 62.2],
-              [-6.66, 62.09]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "Faroe Islands" },
-      "id": "FO"
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [-59.21, -51.41],
-              [-60.37, -52.16],
-              [-60.98, -52.06],
-              [-60.18, -51.76],
-              [-60.64, -51.36],
-              [-59.21, -51.41]
-            ]
-          ],
-          [
-            [
-              [-58.7, -51.34],
-              [-57.73, -51.69],
-              [-59.72, -52.12],
-              [-58.7, -51.34]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "Falkland Islands (Islas Malvinas)" },
-      "id": "FK"
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [-37.5, -54.01],
-              [-35.78, -54.77],
-              [-38.03, -54.05],
-              [-37.5, -54.01]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "South Georgia South Sandwich Islands" },
-      "id": "GS"
-    },
+
     {
       "type": "Feature",
       "geometry": {
@@ -4279,24 +3981,6 @@
         "coordinates": [
           [
             [
-              [20.08, 60.35],
-              [19.94, 60.04],
-              [19.65, 60.26],
-              [20.08, 60.35]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "Aland Islands" },
-      "id": "AX"
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
               [9.45, 42.68],
               [9.18, 41.36],
               [8.58, 42.38],
@@ -4368,32 +4052,6 @@
         "coordinates": [
           [
             [
-              [-53.49, 5.57],
-              [-52.29, 4.94],
-              [-52.04, 4.33],
-              [-51.85, 4.65],
-              [-51.68, 4.03],
-              [-52.91, 2.2],
-              [-54.6, 2.33],
-              [-54, 3.45],
-              [-54.48, 4.75],
-              [-54.17, 5.35],
-              [-53.94, 5.74],
-              [-53.49, 5.57]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "French Guiana" },
-      "id": "GF"
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
               [-149.21, -17.73],
               [-149.18, -17.87],
               [-149.63, -17.55],
@@ -4428,27 +4086,6 @@
       },
       "properties": { "name": "French Polynesia" },
       "id": "PF"
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [69, -48.8],
-              [69.58, -49.3],
-              [70.57, -49.25],
-              [69.77, -49.39],
-              [70.25, -49.69],
-              [68.8, -49.72],
-              [69, -48.8]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "French Southern and Antarctic Lands" },
-      "id": "TF"
     },
     {
       "type": "Feature",
@@ -4565,7 +4202,7 @@
           ]
         ]
       },
-      "properties": { "name": "Gambia, The" },
+      "properties": { "name": "Gambia" },
       "id": "GM"
     },
     {
@@ -4688,24 +4325,6 @@
       },
       "properties": { "name": "Ghana" },
       "id": "GH"
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [-5.33, 36.16],
-              [-5.34, 36.11],
-              [-5.36, 36.16],
-              [-5.33, 36.16]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "Gibraltar" },
-      "id": "GI"
     },
     {
       "type": "Feature",
@@ -5218,42 +4837,6 @@
         "coordinates": [
           [
             [
-              [-61.35, 16.33],
-              [-61.7, 15.95],
-              [-61.78, 16.33],
-              [-61.35, 16.33]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "Guadeloupe" },
-      "id": "GP"
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [144.71, 13.23],
-              [144.66, 13.43],
-              [144.88, 13.65],
-              [144.71, 13.23]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "Guam" },
-      "id": "GU"
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
               [-90.63, 13.93],
               [-92.25, 14.55],
               [-91.73, 16.07],
@@ -5372,42 +4955,6 @@
       },
       "properties": { "name": "Haiti" },
       "id": "HT"
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [73.77, -53.13],
-              [73.47, -53.19],
-              [73.23, -52.99],
-              [73.77, -53.13]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "Heard Island and McDonald Islands" },
-      "id": "HM"
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [12.45, 41.9],
-              [12.45, 41.91],
-              [12.46, 41.9],
-              [12.45, 41.9]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "Holy See (Vatican City)" },
-      "id": "VA"
     },
     {
       "type": "Feature",
@@ -6308,40 +5855,6 @@
         "coordinates": [
           [
             [
-              [-4.79, 5.17],
-              [-7.53, 4.35],
-              [-7.42, 5.84],
-              [-8.61, 6.51],
-              [-8.47, 7.56],
-              [-7.95, 8.02],
-              [-8.2, 8.5],
-              [-7.65, 8.38],
-              [-7.97, 10.17],
-              [-6.99, 10.15],
-              [-6.24, 10.74],
-              [-6.11, 10.2],
-              [-5.52, 10.44],
-              [-4.7, 9.7],
-              [-3.63, 9.95],
-              [-2.69, 9.48],
-              [-2.49, 8.2],
-              [-3.25, 6.61],
-              [-2.93, 5.1],
-              [-4.79, 5.17]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "Cote d'Ivoire" },
-      "id": "CI"
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
               [-77.13, 17.88],
               [-78.34, 18.36],
               [-76.95, 18.39],
@@ -6652,7 +6165,7 @@
           ]
         ]
       },
-      "properties": { "name": "Korea, North" },
+      "properties": { "name": "North Korea" },
       "id": "KP"
     },
     {
@@ -6677,7 +6190,7 @@
           ]
         ]
       },
-      "properties": { "name": "Korea, South" },
+      "properties": { "name": "South Korea" },
       "id": "KR"
     },
     {
@@ -7270,24 +6783,6 @@
       },
       "properties": { "name": "Malta" },
       "id": "MT"
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [-60.86, 14.4],
-              [-61.17, 14.88],
-              [-60.94, 14.74],
-              [-60.86, 14.4]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "Martinique" },
-      "id": "MQ"
     },
     {
       "type": "Feature",
@@ -11335,26 +10830,6 @@
       },
       "properties": { "name": "Ukraine" },
       "id": "UA"
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [20.82, 40.91],
-              [20.59, 41.88],
-              [22.37, 42.32],
-              [22.94, 41.34],
-              [20.98, 40.86],
-              [20.82, 40.91]
-            ]
-          ]
-        ]
-      },
-      "properties": { "name": "Macedonia" },
-      "id": "MK"
     },
     {
       "type": "Feature",
