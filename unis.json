@@ -4,139 +4,90 @@
     "Code": "QCRB",
     "Region": "United Kingdom",
     "Latitude": 52.20543487,
-    "Longitude ": 0.1131411752,
+    "Longitude": 0.1131411752,
     "Area of study": "Accountancy",
     "Start date": 43806,
-    "Success rate": "0,22"
-  },
-  {
-    "University": "Massachusetts Institute of Technology",
-    "Code": "DPDD",
-    "Region": "USA",
-    "Latitude": 42.36028124,
-    "Longitude ": -71.09419219,
-    "Area of study": "Advanced Study",
-    "Start date": 43404,
-    "Success rate": "0,59"
-  },
-  {
-    "University": "Yale University",
-    "Code": "VJEI",
-    "Region": "USA",
-    "Latitude": 41.31650165,
-    "Longitude ": -72.92233237,
-    "Area of study": "Agricultural Economics",
-    "Start date": 43452,
-    "Success rate": "0,42"
+    "Success rate": 22
   },
   {
     "University": "University of Oxford",
     "Code": "VMCM",
     "Region": "United Kingdom",
     "Latitude": 51.75498905,
-    "Longitude ": -1.254377531,
+    "Longitude": -1.254377531,
     "Area of study": "Applied Finance",
     "Start date": 44962,
-    "Success rate": "0,24"
+    "Success rate": 24
   },
   {
     "University": "California Institute of Technology Caltech",
     "Code": "SVCD",
     "Region": "USA",
     "Latitude": 34.13787958,
-    "Longitude ": -118.1252583,
+    "Longitude": -118.1252583,
     "Area of study": "Applied Science",
     "Start date": 44416,
-    "Success rate": "0,73"
+    "Success rate": 73
   },
   {
     "University": "Columbia University",
     "Code": "DTTM",
     "Region": "USA",
     "Latitude": 40.80774654,
-    "Longitude ": -73.96260491,
+    "Longitude": -73.96260491,
     "Area of study": "Architecture",
     "Start date": 43382,
-    "Success rate": "0,51"
+    "Success rate": 51
   },
   {
     "University": "Imperial College London",
     "Code": "MEHI",
     "Region": "United Kingdom",
     "Latitude": 51.49897579,
-    "Longitude ": -0.1748413161,
+    "Longitude": -0.1748413161,
     "Area of study": "Arts",
     "Start date": 44971,
-    "Success rate": "0,34"
-  },
-  {
-    "University": "Harvard University",
-    "Code": "QGII",
-    "Region": "USA",
-    "Latitude": 42.42296771,
-    "Longitude ": -71.11356064,
-    "Area of study": "Arts in Liberal Studies",
-    "Start date": 45032,
-    "Success rate": "0,25"
+    "Success rate": 34
   },
   {
     "University": "University College London",
     "Code": "MLVU",
     "Region": "United Kingdom",
     "Latitude": 51.52473273,
-    "Longitude ": -0.1341152045,
-    "Area of study": "Arts in Special Education",
+    "Longitude": -0.1341152045,
+    "Area of study": "Arts",
     "Start date": 44389,
-    "Success rate": "0,61"
+    "Success rate": 61
   },
   {
     "University": "ETH Zürich-Swiss Federal Institute of Technology Zurich",
     "Code": "QYON",
     "Region": "Switzerland",
     "Latitude": 47.37659957,
-    "Longitude ": 8.547595811,
-    "Area of study": "Arts in Teaching",
+    "Longitude": 8.547595811,
+    "Area of study": "Arts",
     "Start date": 43602,
-    "Success rate": "0,22"
+    "Success rate": 22
   },
-  {
-    "University": "Johns Hopkins University",
-    "Code": "RPZP",
-    "Region": "USA",
-    "Latitude": 39.33238337,
-    "Longitude ": -76.62077987,
-    "Area of study": "Bioethics",
-    "Start date": 44919,
-    "Success rate": "0,48"
-  },
-  {
-    "University": "Stanford University",
-    "Code": "TWQJ",
-    "Region": "USA",
-    "Latitude": 37.42788149,
-    "Longitude ": -122.17006,
-    "Area of study": "Business Administration",
-    "Start date": 44438,
-    "Success rate": "0,46"
-  },
+
   {
     "University": "University of Pennsylvania",
     "Code": "BXFV",
     "Region": "USA",
     "Latitude": 39.95234214,
-    "Longitude ": -75.19319225,
-    "Area of study": "Business, Entrepreneurship and Technology",
+    "Longitude": -75.19319225,
+    "Area of study": "Business",
     "Start date": 44088,
-    "Success rate": "0,58"
+    "Success rate": 58
   },
   {
     "University": "University of Chicago",
     "Code": "OWBH",
     "Region": "USA",
     "Latitude": 41.79054902,
-    "Longitude ": -87.60039634,
+    "Longitude": -87.60039634,
     "Area of study": "Business",
     "Start date": 43205,
-    "Success rate": "0,36"
+    "Success rate": 36
   }
 ]

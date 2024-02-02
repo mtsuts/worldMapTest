@@ -1,4 +1,4 @@
-function map(mapContainer, data) {
+function map(mapContainer, data, unis) {
 
   const container = d3.select(mapContainer)
 
@@ -27,11 +27,9 @@ function map(mapContainer, data) {
   const features = svg.append("g")
 
   // color scale for heatmap 
-
-
-  const colorScale = d3.scalePow()
-    .domain([d3.min(data.features.map(d => d.gdp.unGDP)), d3.max(data.features.map(d => d.gdp.unGDP))])
-    .range(["#ffa200", "#ff3300"]).exponent(0.3)
+  // const colorScale = d3.scalePow()
+  //   .domain([d3.min(data.features.map(d => d.gdp.unGDP)), d3.max(data.features.map(d => d.gdp.unGDP))])
+  //   .range(["#ffa200", "#ff3300"]).exponent(0.3)
 
 
   // Bind the GeoJSON data to path elements and draw them
@@ -62,7 +60,6 @@ function map(mapContainer, data) {
   function zoomed(event) {
     const { transform } = event;
     features.attr("transform", transform);
-
   }
 
   function reset() {
@@ -74,6 +71,8 @@ function map(mapContainer, data) {
     );
   }
 
+
+  // zoom on click
   function clicked(event, d) {
     resetBtn.classed('hidden', false)
     const [[x0, y0], [x1, y1]] = path.bounds(d);
@@ -95,6 +94,18 @@ function map(mapContainer, data) {
     );
   }
 
+  // circle radius scale
+  const scaleRadius = d3.scaleLinear().domain([d3.min(unis.map(d => d.successRate)), d3.max(unis.map(d => d.successRate))]).range([20, 40])
 
 
+  // adding circles on university coordinates 
+  features.selectAll('circle')
+    .data(unis)
+    .enter()
+    .append('circle')
+    .attr('cx', (d) => projection([d.Longitude, d.Latitude])[0])
+    .attr('cy', (d) => projection([d.Longitude, d.Latitude])[1])
+    .attr('r', (d) => scaleRadius(d.successRate))
+    .attr('fill', 'red')
+    .attr('opacity', 0.4)
 }
